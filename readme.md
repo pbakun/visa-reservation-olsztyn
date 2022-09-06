@@ -5,4 +5,4 @@ This repository contains application in Node.JS automating visa application in O
 1. Install Node.JS
 2. Run `npm install`
 3. In `index.js` fill your data: FirstName, LastName, Email and Phone number.
-4. Verify if script works. You should have browser opening every 10 seconds until available date is found.
+4. Start script with `npm start`. You should have browser opening every 10 seconds until available date is found.

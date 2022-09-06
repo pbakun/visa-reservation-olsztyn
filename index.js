@@ -19,7 +19,7 @@ async function selectDate(page) {
 
     await clickDateInput(page)
     const availableDates =  await (await page.locator('.ui-datepicker-calendar td[data-event="click"]').allInnerTexts())
-    availableDates.shift()
+    // availableDates.shift()
     for(let i=0; i<availableDates.length; i++) {
         if(i !== 0)
             await clickDateInput(page)
